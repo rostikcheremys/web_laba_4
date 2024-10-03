@@ -1,6 +1,7 @@
 <?php
 
 $filename = 'data/napr.txt';
+
 if (file_exists($filename)) {
     $directions = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
     sort($directions);
@@ -14,6 +15,7 @@ echo '<form method="post" action="index-data.php">'.
 
 for ($i = 0; $i < count($directions); $i++) {
     $direction = $directions[$i];
+
     echo '<label class="radio-label">' .
         '<input type="radio" name="napr" value="' . $direction . '" class="radio-input"> ' . $direction .
         '</label><br>';
