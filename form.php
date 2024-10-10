@@ -10,7 +10,7 @@ if (file_exists($filename)) {
     exit;
 }
 
-echo '<form method="post" action="index-data.php">'.
+echo '<form method="post" action="index-table.php">' .
     '<h2>Оберіть спеціальність для вступу:</h2>';
 
 for ($i = 0; $i < count($directions); $i++) {

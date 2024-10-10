@@ -20,6 +20,7 @@ $stats = [];
 foreach ($data as $index => $line) {
     if (trim($line) === $selectedDirection) {
         $found = true;
+
         $numberOfUniversities = (int)$data[$index + 1];
 
         for ($i = 0; $i < $numberOfUniversities; $i++) {

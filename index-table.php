@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Статистика</title>
-    <link rel="stylesheet" href="data.css">
+    <link rel="stylesheet" href="style-table.css">
 </head>
 <body>
     <main>
